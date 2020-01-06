@@ -1,0 +1,42 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="header">
+      Black Jack
+    </div>
+    <div id="status">
+      Let's Play
+    </div>
+
+    <div id="image-container">
+      <div id="human-cards">
+        <div class="text">Your Score :</div>
+        <div class="text" id="urScoreId">0</div>
+        <div id="images"></div>
+      </div>
+      <div id="dealer-cards">
+        <div class="text">Dealer Score :</div>
+        <div class="text" id="dealerScoreId">0</div>
+        <div id="dealerImages"></div>
+      </div>
+    </div>
+
+    <div id="btns">
+      <button class="btn btn-success" onclick="yourHit()">Hit</button>
+      <button class="btn btn-primary" onclick="dealerHit()">Stand</button>
+      <button class="btn btn-danger" onclick="clearAll()">Play Again</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+body {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+#image-container {
+  border: 3px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: rgb(41, 75, 7);
+}
+
+#header {
+  text-align: center;
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter",
+    "Lucida Typewriter", monospace;
+  font-size: 44px;
+  padding-top: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+}
+#status {
+  border: 2px solid black;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 24px;
+  text-align: center;
+}
+#btns {
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+  color: white;
+}
+#human-cards {
+  border: 2px solid rgb(41, 75, 7);
+  flex-basis: 18em;
+  min-height: 40vh;
+  font-size: 25px;
+  padding: 5px;
+  background-color: rgb(41, 75, 7);
+}
+
+#dealer-cards {
+  border: 2px solid rgb(41, 75, 7);
+  flex-basis: 18em;
+  min-height: 40vh;
+  font-size: 25px;
+  padding: 5px;
+  background-color: rgb(41, 75, 7);
+}
+#human-cards img {
+  justify-content: space-between;
+  padding: 10px;
+}
+
+#dealer-cards img {
+  justify-content: space-between;
+  padding: 10px;
+}
