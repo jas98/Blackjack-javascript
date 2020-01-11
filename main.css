@@ -22,7 +22,11 @@ body {
   font-weight: 700;
   line-height: 26.4px;
 }
-#status {
+
+#table {
+  text-align: center;
+}
+#scoreHeader {
   border: 2px solid black;
   margin-bottom: 10px;
   padding: 10px;
@@ -62,4 +66,7 @@ body {
 #dealer-cards img {
   justify-content: space-between;
   padding: 10px;
+}
+
+#btns {
 }
