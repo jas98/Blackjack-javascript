@@ -105,8 +105,6 @@ function dealerHit() {
     } else {
       document.getElementById("status").innerHTML =
         "You Loose,because you went above 21";
-      lossCount++;
-      document.getElementById("loss").innerHTML = lossCount;
     }
   }
 }
